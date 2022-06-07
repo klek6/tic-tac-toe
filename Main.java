@@ -11,7 +11,7 @@ import java.util.TimerTask;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-public class MoveBall extends JComponent implements KeyListener {
+public class Main extends JComponent implements KeyListener {
   static int grid = 10;
   int x, y, dx = 1, dy = 1, width, height;
 
